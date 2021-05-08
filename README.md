@@ -4,9 +4,9 @@ O objetivo seria o desenvolvimento de um sistema capaz de realizar um gerenciame
 
 Essas informações serão mapeadas pelo sistema, gerando:
 
-● Uma agenda específica ao perfil do usuário, levando em consideração: sua rotina e tarefas a serem realizadas.
-● Um sistema de recompensas baseado no tempo livre e nos hobbies dos usuários.
-● Notificações nos principais meios de comunicação do usuário levando em consideração o nível de prioridade das atividades.
+* Uma agenda específica ao perfil do usuário, levando em consideração: sua rotina e tarefas a serem realizadas.
+* Um sistema de recompensas baseado no tempo livre e nos hobbies dos usuários.
+* Notificações nos principais meios de comunicação do usuário levando em consideração o nível de prioridade das atividades.
 
 ## Alunos integrantes da equipe
 
