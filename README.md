@@ -1,6 +1,12 @@
 # Tortuga
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O objetivo seria o desenvolvimento de um sistema capaz de realizar um gerenciamento inteligente e intuitivo das tarefas, de uma maneira prática para o usuário. Isso será possível através de algumas informações cedidas pelo usuário ao realizar o registro, relacionados a sua rotina.
+
+Essas informações serão mapeadas pelo sistema, gerando:
+
+● Uma agenda específica ao perfil do usuário, levando em consideração: sua rotina e tarefas a serem realizadas.
+● Um sistema de recompensas baseado no tempo livre e nos hobbies dos usuários.
+● Notificações nos principais meios de comunicação do usuário levando em consideração o nível de prioridade das atividades.
 
 ## Alunos integrantes da equipe
 
@@ -12,8 +18,11 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Rommel Vieira Carneiro
+* João Carlos Oliveira Caetano
+* Ilo Amy Saldanha Rivero
+* Cristiane Neri Nobre
+* Fatima De Lima Procopio Duarte
 
 ## Instruções de utilização
 
