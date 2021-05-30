@@ -4,6 +4,10 @@
  #toggle:not(checked)~ label i:nth-child(2){display:none;}
  #toggle:checked~ul{display: block;}
  #toggle:checked~ul div li a{display:block;}
+ #data-hora{
+   font-size:xx-large;
+   padding: 5px;
+ }
   .menu{display: flex;flex-wrap: wrap;align-items: center;width: 100%;height:100%;position: fixed;display: none;}
   
   @media screen and (max-width:600px) {.men1{margin-left: 20%;margin-bottom:30%;}.aba{margin-top: 40%;}.seta{width: 14% !important;;}
