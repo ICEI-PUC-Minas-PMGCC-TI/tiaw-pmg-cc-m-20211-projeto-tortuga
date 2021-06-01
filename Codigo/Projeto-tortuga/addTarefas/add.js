@@ -1,4 +1,4 @@
-function add() {
+const add = () => {
     var nome = document.getElementById("nome");
     var propriedade = document.getElementById("prioridade");
     var data = document.getElementById("data");
@@ -8,20 +8,23 @@ function add() {
         propriedade: propriedade.value,
         data: data.value
     }
-    // window.localStorage.getItem("tarefas").then(tarefas=>{
-    //     const tarefasLS = JSON.parse(tarefas)
-    //     console.log(tarefasLS)
-    // });
-    const tarefasLS = JSON.parse(localStorage.getItem("tarefas"));
-    console.log(tarefasLS);
-    const todasTarefas = [...tarefasLS]
-    todasTarefas.push(cadastro);
-    localStorage.setItem('tarefas', JSON.stringify(todasTarefas));
-    // tarefasLS.push(cadastro);
-    // localStorage.setItem('tarefas', JSON.stringify(tarefaLS));
-    // console.log(tarefasLS);
+    if (formValido(cadastro)) {
+        const tarefasLS = JSON.parse(localStorage.getItem("tarefas"));
+        console.log(tarefasLS);
+        const todasTarefas = [...tarefasLS]
+        todasTarefas.push(cadastro);
+        localStorage.setItem('tarefas', JSON.stringify(todasTarefas));
+        alert("Tarefa adicionada com sucesso!");
+        nome.value = "";
+        propriedade.value = 0;
+        data.value = "";
+    }else{
+        alert("Todos os campos devem ser preenchidos!");
+    }
+}
 
-    // localStorage.setItem('cadastro', JSON.stringify(cadastro));
+const formValido = (cadastro) => {
+    return cadastro.tarefa != "" && cadastro.data != "";
 }
 
 
