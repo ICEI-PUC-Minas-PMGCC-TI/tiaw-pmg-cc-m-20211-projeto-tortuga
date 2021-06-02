@@ -29,4 +29,17 @@ i{color:rgb(217, 248, 169);}
    ul div li a{display: none;}
   
    
-   
+   .shadow{display: none;}
+   .teste{cursor: pointer;}
+   .teste ::before,
+   .teste::after{
+
+      content: "";
+   }
+
+   .teste ::before{
+      display:inline-block;
+      width: 2em;
+      height: 1em;
+      background-color: #900;
+   }
