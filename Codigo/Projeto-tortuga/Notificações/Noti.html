@@ -8,10 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notificações</title>
-    <script src="https://kit.fontawesome.com/65ffea1113.js" crossorigin="anonymous"></script>
+    <script src="/modoNoturn.js"></script>
 </head>
-<body>
-    <nav class="cab">
+<body id="body">
+    <nav id="te" class="cab">
         <a href="/Codigo/Projeto-tortuga/Pagina inicial/tp.html"><img class="perfil" src="/Codigo/Projeto-tortuga/Img/Seta.png"></a><center class="t"><h2>Notificações</h2></center>
         
         <input type="checkbox" id="toggle">
@@ -20,7 +20,7 @@
             <i class="fa fa-times-circle"></i>
         </label>
           
-            <ul class="menu">
+            <ul id="mn"class="menu">
                 
                 
             <center class="aba">
@@ -28,16 +28,16 @@
             <li><a href="/Codigo/Projeto-tortuga/Agenda/Agenda.html">Agenda</a></li>
             <li><a href="/Codigo/Projeto-tortuga/Notificações/Noti.html">Notificações</a></li>
             <li><a href="/Codigo/Projeto-tortuga/Tela inicial/Tela1.html">Desconectar</a></li>
+            <li> <input type="checkbox" id="shadow"></li>
             </center>
                 
             </ul>
      
     </nav>
-    <center class="lista">
-        <button type="button" class="btn btn-success not">Amanhã você deve estudar</button>
-        <button type="button" class="btn btn-success not">Faltam 20 dias para visitar tia dora</button>
-        <button type="button" class="btn btn-success not">Hoje você tem o dia livre se quiser</button>
-        <button type="button" class="btn btn-success not">Troféu conquistado com sucesso</button>
+    <center id="tarefasContainer" class="lista tarefasContainer">
     </center>
 </body>
 </html>
+<script src="https://kit.fontawesome.com/65ffea1113.js" crossorigin="anonymous"></script>
+<script src="./db_notificacoes.js" crossorigin="anonymous"></script>
+<script src="./app.js" crossorigin="anonymous"></script>
