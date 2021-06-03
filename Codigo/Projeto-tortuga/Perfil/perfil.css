@@ -4,6 +4,7 @@ body{background-color: rgb(217, 248, 169);}
 h1{text-align:center;}
 p{text-align:center;}
 i{color:rgb(217, 248, 169);}
+
 @media screen  and (max-width:600px){.perfil{width:50%;}.seta{width:13% !important;}}
 @media screen and (max-width:1024px){.perfil{width:50%}}
 .seta{width:5%;display:inline;}
@@ -43,3 +44,10 @@ i{color:rgb(217, 248, 169);}
       height: 1em;
       background-color: #900;
    }
+
+
+/* Inserir imagem */
+#file{
+    display: none;
+}
+

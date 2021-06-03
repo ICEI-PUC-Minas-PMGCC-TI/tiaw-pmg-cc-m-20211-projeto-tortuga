@@ -1,9 +1,0 @@
-body{background-color:rgb(217, 248, 169);margin:0 auto;padding:0px;margin-top:5%;} 
-.but{display:block; margin-bottom:20px;margin-top:20px;font-size:150%;width:25%;}
-.box{max-width:100%;padding:20px;border-radius:10px;}
-@media screen and (max-width:600px){
-body{margin-top:20%;}
-.but{width:50%;}
-.logo {width:80%;}}
-a{text-decoration:none;}
-@media screen and (max-width:1024px){body{margin-top:27%;}}
