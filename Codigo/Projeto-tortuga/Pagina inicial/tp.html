@@ -20,15 +20,16 @@
             
                a.onclick=()=>{
                    if(a.checked==true){
+            
                b.style.backgroundColor=`black`
                c.style.backgroundColor=`grey`
                d.style.backgroundColor=`rgb(53 53 53)`
                e.style.backgroundColor=`black`; e.style.border=`black`
                f.style.backgroundColor=`black`; f.style.border=`black`
                g.style.backgroundColor=`black`; g.style.border=`black`
-               t1.style.backgroundColor=`black`; t1.style.border=`black`
-               t2.style.backgroundColor=`black`; t2.style.border=`black`
-               t3.style.backgroundColor=`black`; t3.style.border=`black`
+               agenda.style.backgroundColor=`black`; t1.style.border=`black`
+               not.style.backgroundColor=`black`; t2.style.border=`black`
+               re.style.backgroundColor=`black`; t3.style.border=`black`
                t4.style.backgroundColor=`black`; t4.style.border=`black`
                t5.style.backgroundColor=`black`; t5.style.border=`black`
                t6.style.backgroundColor=`black`; t6.style.border=`black`
@@ -97,9 +98,9 @@
 </nav>
 <div>
     <center>
-    <a href="/Codigo/Projeto-tortuga/Agenda/Agenda.html"><button type="button" class="btn btn-success but">Agenda</button></a>
-    <a href="../addTarefas/add.html"><button type="button" class="btn btn-success but2">Add tarefa</button></a>
-    <a href="/Codigo/Projeto-tortuga/Notificações/Noti.html"><button type="button" class="btn btn-success but3">Not</button></a>
+    <a href="/Codigo/Projeto-tortuga/Agenda/Agenda.html"><button id="agenda" type="button" class="btn btn-success but">Agenda</button></a>
+    <a href="../addTarefas/add.html"><button id="add"type="button" class="btn btn-success but2">Add tarefa</button></a>
+    <a href="/Codigo/Projeto-tortuga/Notificações/Noti.html"><button id="not"type="button" class="btn btn-success but3">Not</button></a>
     </center>
     <h2 class="pi">Prioridades</h2>
     <ul class="af">
@@ -110,7 +111,7 @@
         <li><button type="button" class="btn btn-success  tarefa">Estudar para prova - Parte 2</button></li>
     <h2 class="pi">Outras prioridades</h2>
     <ul class="bp">
-        <li><button   type="button" class="btn btn-success tarefa at">Ler um livro</button></li></li>
+        <li><button id="re"  type="button" class="btn btn-success tarefa at">Ler um livro</button></li></li>
         <li><button  type="button" class="btn btn-success tarefa at">Ir para academia</button></li></li>
         <li><button  type="button" class="btn btn-success tarefa at">Trabalhar em projetos</button></li></li>
 
