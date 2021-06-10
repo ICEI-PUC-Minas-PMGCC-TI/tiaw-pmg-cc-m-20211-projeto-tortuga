@@ -43,11 +43,14 @@
     </nav>
 
     <section class="sessao-contato">
-        <form name="formteste" action="" method="post">
+        <form name="formteste" action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="hidden" name="accessKey" value="893d0af8-62dd-4502-806a-190be781bbd9">
+            <input type="hidden" name="redirectTo" value="#">   
+
             <h2>Contato</h2>
 
             <p class="nome">
-                <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+                <input type="text" name="name" placeholder="Informe seu nome" required="required">
             </p>
 
             <p class="email">
@@ -55,11 +58,11 @@
             </p>
 
             <p class="assunto">
-                <input type="text" name="assunto" placeholder="Informe o assunto" required="required">
+                <input type="text" name="subject" placeholder="Informe o assunto" required="required">
             </p>
 
             <p class="mensagem">
-                <textarea name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                <textarea name="message" placeholder="Deixe sua mensagem"></textarea>
             </p>
 
             <p class="enviar">
