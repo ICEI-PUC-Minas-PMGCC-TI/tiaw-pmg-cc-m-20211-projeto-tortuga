@@ -2,25 +2,25 @@ const tarefas =
 [
     {
         tarefa: "Estudar",
-        prioridade: "Alta",
+        prioridade: "0",
         data: "01/06/2021",
         status: false
     }, 
     {
         tarefa: "Caminhar",
-        prioridade: "Media",
+        prioridade: "1",
         data: "02/06/2021",
         status: true
     }, 
     {
         tarefa: "Comer",
-        prioridade: "Baixa",
+        prioridade: "2",
         data: "03/06/2021",
         status: false
     }, 
     {
         tarefa: "Andar",
-        prioridade: "Alta",
+        prioridade: "0",
         data: "04/06/2021",
         status: true
     }

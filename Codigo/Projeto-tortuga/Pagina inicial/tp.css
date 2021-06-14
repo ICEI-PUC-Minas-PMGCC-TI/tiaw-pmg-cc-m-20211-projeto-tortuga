@@ -68,3 +68,15 @@
   display: flex;
   align-items: center;
 }
+.btn-secondary{
+    background-color: rgb(185, 99, 0);
+    border-color: black;
+}
+.btn-danger{
+  background-color: rgb(124, 0, 0);
+  border-color: black;
+}
+.btn-primary{
+  background-color: rgb(16, 95, 0);
+  border-color: black;
+}
